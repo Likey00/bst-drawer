@@ -41,6 +41,7 @@ function init() {
         ctx.textBaseline = "middle";
     
         drawCircles();
+        ctx.fillStyle = "white";
     
         function drawCircles() {
             helper(bst.root);
